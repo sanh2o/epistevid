@@ -1,0 +1,29 @@
+# Site settings
+title: "epistevid"
+description: "episteme + vid — knowledge meets knowing"
+author: Sam
+
+# Build settings
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - _drafts/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Keep empty - add only if you create public accounts for this
+# github_username:
+# linkedin_username:

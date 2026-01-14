@@ -170,6 +170,8 @@ Across categories, a pattern appears:
 
 ![Summary of embedded energy by category](/epistevid/assets/images/energy-summary.svg)
 
+![Combined view: embedded vs operational across all categories](/epistevid/assets/images/energy-combined.svg)
+
 As operational energy gets cheaper:
 - Replacement cycles shorten
 - Embedded energy dominates
@@ -215,3 +217,5 @@ The rest is just moving joules around on a calendar.
 - ASHRAE Residential Energy Handbooks
 
 *All numerical values are order-of-magnitude estimates intended for system-level reasoning, not device-specific claims.*
+
+*Note: The embedded energy calculations are based on older studies. Manufacturing methods continue to improve, and as the grid becomes greener, the embedded energy footprint of new devices will shrink over time.*

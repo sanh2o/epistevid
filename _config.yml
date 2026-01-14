@@ -2,9 +2,14 @@
 title: "epistevid"
 description: "episteme + vid — knowledge meets knowing"
 author: Sam
+url: "https://sanh2o.github.io"
+baseurl: "/epistevid"
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
 markdown: kramdown
 highlighter: rouge
 
@@ -16,14 +21,16 @@ exclude:
   - node_modules/
   - vendor/
   - _drafts/
+  - projects/
 
 # Defaults
 defaults:
   - scope:
       path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
     values:
       layout: "default"
-
-# Keep empty - add only if you create public accounts for this
-# github_username:
-# linkedin_username:

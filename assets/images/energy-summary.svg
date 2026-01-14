@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" fill="#161b22"/>
+  <text x="200" y="22" fill="#c9d1d9" font-family="monospace" font-size="12" text-anchor="middle">EMBEDDED ENERGY SHARE BY CATEGORY</text>
+
+  <!-- Y-axis labels -->
+  <text x="15" y="55" fill="#8b949e" font-family="monospace" font-size="9" text-anchor="end">Heat</text>
+  <text x="15" y="85" fill="#8b949e" font-family="monospace" font-size="9" text-anchor="end">Fridge</text>
+  <text x="15" y="115" fill="#8b949e" font-family="monospace" font-size="9" text-anchor="end">Laptop</text>
+  <text x="15" y="145" fill="#8b949e" font-family="monospace" font-size="9" text-anchor="end">EV</text>
+  <text x="15" y="175" fill="#8b949e" font-family="monospace" font-size="9" text-anchor="end">Phone</text>
+
+  <!-- Bars (embedded energy %) -->
+  <rect x="25" y="42" width="36" height="18" fill="#a371f7" rx="2"/>
+  <text x="65" y="55" fill="#6e7681" font-family="monospace" font-size="9">~10%</text>
+
+  <rect x="25" y="72" width="108" height="18" fill="#a371f7" rx="2"/>
+  <text x="137" y="85" fill="#6e7681" font-family="monospace" font-size="9">~30%</text>
+
+  <rect x="25" y="102" width="180" height="18" fill="#a371f7" rx="2"/>
+  <text x="209" y="115" fill="#6e7681" font-family="monospace" font-size="9">~50%</text>
+
+  <rect x="25" y="132" width="180" height="18" fill="#a371f7" rx="2"/>
+  <text x="209" y="145" fill="#6e7681" font-family="monospace" font-size="9">~50%</text>
+
+  <rect x="25" y="162" width="315" height="18" fill="#a371f7" rx="2"/>
+  <text x="345" y="175" fill="#6e7681" font-family="monospace" font-size="9">~87%</text>
+
+  <!-- Scale markers -->
+  <line x1="25" y1="190" x2="385" y2="190" stroke="#30363d" stroke-width="1"/>
+  <text x="25" y="205" fill="#6e7681" font-family="monospace" font-size="8">0%</text>
+  <text x="205" y="205" fill="#6e7681" font-family="monospace" font-size="8">50%</text>
+  <text x="375" y="205" fill="#6e7681" font-family="monospace" font-size="8">100%</text>
+</svg>

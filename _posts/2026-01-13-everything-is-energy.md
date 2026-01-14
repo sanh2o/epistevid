@@ -33,6 +33,8 @@ Energy = Power × Time
 Convert to kWh:
 90,000 J ÷ 3,600,000 = **0.025 kWh**
 
+![Toast energy visualization](/epistevid/assets/images/energy-toast.svg)
+
 **Interpretation**
 - Cost at \$0.15/kWh ≈ **\$0.004**
 - 100% operational energy
@@ -61,6 +63,8 @@ Q = m × c × ΔT
 Convert to kWh:
 9,930 kJ ÷ 3,600 = **2.76 kWh**
 
+![Hot water energy visualization](/epistevid/assets/images/energy-shower.svg)
+
 **Interpretation**
 - Two orders of magnitude more than toast
 - Still mostly operational
@@ -85,6 +89,8 @@ Life-cycle assessments estimate:
 **Ratio**
 - Embedded ≈ **25–30%** of lifetime energy
 
+![Refrigerator energy breakdown](/epistevid/assets/images/energy-fridge.svg)
+
 **Interpretation**
 You are already paying for past energy.
 Efficiency labels mostly describe the *tail*, not the *head*.
@@ -107,6 +113,8 @@ Efficiency labels mostly describe the *tail*, not the *head*.
 **Result**
 Embedded energy ≈ operational energy.
 
+![Laptop energy breakdown](/epistevid/assets/images/energy-laptop.svg)
+
 ---
 
 ### Smartphone
@@ -120,6 +128,8 @@ Embedded energy ≈ operational energy.
 
 **Result**
 Embedded energy ≈ **85–90%** of total.
+
+![Smartphone energy breakdown](/epistevid/assets/images/energy-phone.svg)
 
 Calling phones "low-power devices" is an accounting illusion.
 
@@ -140,6 +150,8 @@ Multiple LCAs converge on:
 **Ratio**
 Embedded energy ≈ lifetime operational energy.
 
+![EV energy breakdown](/epistevid/assets/images/energy-ev.svg)
+
 Debates that ignore either side are incomplete.
 
 ---
@@ -155,6 +167,8 @@ Across categories, a pattern appears:
 | Laptops | ~40–60% |
 | Smartphones | ~85–90% |
 | Electric vehicles | ~45–55% |
+
+![Summary of embedded energy by category](/epistevid/assets/images/energy-summary.svg)
 
 As operational energy gets cheaper:
 - Replacement cycles shorten
